@@ -11,7 +11,7 @@
 <div class="form-container">
     <h2>Book Generation Form</h2>
 
-    <form action="generated_book.php" method="post">
+    <form action="generated_book.php" method="post" target="_blank" onsubmit="onclick='window.open('generated_book.php')">
 
         <!-- Textbox for Dress IDs -->
         <div class="form-group">
